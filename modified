@@ -1,0 +1,34 @@
+# Instructions for Documentation and User Story Generation
+
+**Goal:** Create a comprehensive `REQUIREMENTSUI.md` file that details the UI module's functionality, and then use that information to generate a `USERSTORIES.md` file for the entire `src.main.java` codebase.
+
+---
+
+### Step 1: Initial UI Analysis and Documentation
+
+1.  **Analyze the UI module:** Examine the source code within the `<package src.main.webapp>`.
+2.  **Summarize core functionality:** Extract and document the business logic, key workflows, and data flow of the UI.
+3.  **Document file details:** Specifically, detail what each JSP page is doing and what kind of validations are present in the JavaScript (`js`) files for every workflow.
+4.  **Save the output:** Write all of this information into a new file named `REQUIREMENTSUI.md`.
+
+---
+
+### Step 2: Incorporate Widget Details
+
+1.  **Analyze the widget module:** Scan the code located in `<src.main.java.common.ui.widegt>`.
+2.  **Append details:** Add the details of the widgets found to the end of the `REQUIREMENTSUI.md` file.
+3.  **Combine requirements:** Where applicable, merge the requirements of the widgets with the main UI requirements to create a cohesive document.
+
+---
+
+### Step 3: Generate User Stories
+
+1.  **Create user stories for the UI:** Based on the information now contained in `REQUIREMENTSUI.md`, generate user stories for each module within the `<package src.main.webapp>`. Include detailed acceptance criteria for each story.
+2.  **Save the output:** Write these user stories to a new file named `USERSTORIESUI.md`.
+
+---
+
+### Step 4: Generate Global User Stories
+
+1.  **Scan the entire backend:** Use the codebase in `src.main.java`.
+2.  **Generate comprehensive user stories:** Using the `REQUIREMENTSUI.md` file as the primary source of truth, generate a separate `USERSTORIES.MD` file for each module in the `src.main.java` package, ensuring each story includes acceptance criteria.
