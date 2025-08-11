@@ -1,0 +1,10 @@
+#codebase  
+  - The source code of the UI module `<package src.main.webapp>`. Summarize the business logic, key workflows, and data flow. Save the output to REQUIREMENTSUI.md.
+ 
+#codebase Update <REQUIREMENTSUI.md> in such a way that it talks detail about the jsp pages what they are doing, js pages what kind of validations are present for every workflow
+I need user stories for each module in this cupid UI module `<package src.main.webapp>` with acceptance Criteria based on #file:REQUIREMENTSUI.md
+
+ 
+#codebase Scan <src.main.java.common.ui.widegt> and append the details on REQUIREMENTSUI.md and USERSTORIESUI.md in the end and combine the requirements of widgets wherever applicable
+ 
+#codebase Use  REQUIREMENTSUI.md to generate USERSTORIES.MD for each module in src.main.java with acceptance criteria
