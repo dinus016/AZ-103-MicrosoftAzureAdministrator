@@ -1,0 +1,13 @@
+## 4. Business Rules
+
+- **Mandatory Field Checks**: Certain fields (e.g., ISDA, CSA, justification comments) must be filled before proceeding.
+- **Conditional Formatting**: Cells are highlighted or formatted based on values (e.g., missing data, status flags).
+- **Dropdown Validation**: User selections are validated against allowed lists; invalid entries are reset or cleared.
+- **Scorecard Logic**: Fund scoring is based on complex rules, including lookups, formulas, and conditional logic.
+- **Limit Management**: Limits are checked against approval flags and statuses; errors are raised if limits are not allocated.
+- **Section Navigation**: Users cannot proceed to the next section until all required data is entered and validated.
+- **Event-Driven Updates**: Worksheet_Change events trigger recalculation, validation, and UI updates.
+- **Sheet Protection**: Sheets are protected/unprotected dynamically to control user access and prevent unwanted changes.
+- **Data Synchronization**: Data is synchronized between Working Sheet, Master Copy, Summary, and other sheets as needed.
+- **Reporting**: Reports are generated with specific formatting, aggregation, and export logic.
+
